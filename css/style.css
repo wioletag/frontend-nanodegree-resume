@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #331832;
   line-height: 48px;
   display: inline;
 }
@@ -34,15 +34,14 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #d81e5b;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
+  font-size: 18px;
+  color: #331832;
   line-height: 22px;
 }
 
@@ -60,7 +59,6 @@ h5 {
   padding: 10px 5%;
 
 }
-
 
 .date-text {
   font-style: italic;
@@ -95,12 +93,12 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #874c62;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #331832;
   display: none;
 }
 
@@ -108,13 +106,20 @@ a {
   background-color: #f5ae23;
 }
 
-.orange-text {
-  color: #f5ae23;
+.beige{
+  background-color: #fdf0d5
 }
 
-.white-text {
-  font-weight: bold;
-  color: #fff;
+.purple-text{
+  color: #331832;
+}
+
+.orange-text {
+  color: #c98474;
+}
+
+.brown-text {
+  color: #874c62;
 }
 
 .gray {
@@ -127,9 +132,13 @@ a {
   background-color: #4a4a4a;
 }
 
+.mint {
+  background-color: #c6d8d3;
+}
+
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #c6d8d3;
 }
 
 .flex-box {
@@ -159,12 +168,12 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 150px;
   display: none;
 }
 
 img {
-  padding: 10px;
+  margin: 10px;
 }
 
 span {
@@ -174,6 +183,19 @@ span {
 #lets-connect {
   text-align: center;
 }
+
+.icon-bar {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.project-img {
+  border: solid 1px #e5e5e5;
+}
+
 
 /* Media queries to handle various device widths */
 
@@ -185,7 +207,7 @@ span {
 
 @media only screen and (max-width:900px) {
   .biopic {
-    width: 175px;
+    width: 130px;
   }
 }
 
@@ -194,7 +216,7 @@ span {
     margin-top: 10%;
   }
   .biopic {
-    width: 150px;
+    width: 110px;
   }
   .welcome-message {
     display: none;
